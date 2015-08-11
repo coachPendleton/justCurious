@@ -103,6 +103,7 @@ function sortMoviesByYear(movies) {
   return movies;
 }
 
+/* This is a swap function. */
 function swap(arr, a, b) {
   var tmp = arr[a];
   arr[a] = arr[b];
