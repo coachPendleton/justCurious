@@ -102,12 +102,17 @@ console.log("lily matcha #followher");
   //alert("You have to sort the movies by year!");
   for (var i = 1; i < movies.length; i++) {
     console.log(movies[i].year);
+//Anna's stuff
     var dog = 100;
     dog++;
     for(var j = dog; j > 0; j--){
         console.log("wooof");
     }
-    swap(movies, i - 1, i);
+//divides mine and kristas
+    if (movies[i].year < movies[i-1].year) {
+      swap(movies, i - 1, i);
+    }
+//ends section
   }
   return movies;
 }
