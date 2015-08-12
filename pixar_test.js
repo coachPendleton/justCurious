@@ -98,7 +98,9 @@ function sortMoviesByYear(movies) {
   //alert("You have to sort the movies by year!");
   for (var i = 1; i < movies.length; i++) {
     console.log(movies[i].year);
-    swap(movies, i - 1, i);
+    if (movies[i].year < movies[i-1].year) {
+      swap(movies, i - 1, i);
+    }
   }
   return movies;
 }
