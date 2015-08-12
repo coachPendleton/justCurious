@@ -95,9 +95,18 @@ function shuffle(o) {
 */
 function sortMoviesByYear(movies) {
 
+//hahahahahahahahaha IDK what I want to add but Imma add stuff
+console.log("Krista is cool");
+console.log("lily matcha #followher");
+
   //alert("You have to sort the movies by year!");
   for (var i = 1; i < movies.length; i++) {
     console.log(movies[i].year);
+    var dog = 100;
+    dog++;
+    for(var j = dog; j > 0; j--){
+        console.log("wooof");
+    }
     swap(movies, i - 1, i);
   }
   return movies;
